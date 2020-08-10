@@ -1,0 +1,25 @@
+.image-div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.image-div > img{
+  width: 600px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  .image-div {
+    flex-direction: row;
+    width: 800px;
+  }
+
+  .image-div > img{
+    width: 600px;
+    margin: 0 auto;
+    margin-left: 10px;
+}
+}
